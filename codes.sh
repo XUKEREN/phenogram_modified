@@ -1,0 +1,1 @@
+ruby pheno_gram.rb -i out.txt -a -G -Y cytoBand.txt -x -T -F
