@@ -645,7 +645,7 @@ class ExhaustiveSearchColorMaker < ColorMaker
 	
 	def initialize
 		@index=0
-		@exhaustiveColors = ['rgb(255,0,0)','rgb(0,160,138)','rgb(222,173,221)','rgb(249,132,0)','rgb(91,188,214)','rgb(78,60,52)',
+		@exhaustiveColors = ['rgb(255,0,0)','rgb(0,160,138)','rgb(242,173,0)','rgb(91,188,214)','rgb(91,188,214)','rgb(78,60,52)',
     'rgb(255,213,0)','rgb(155,147,255)','rgb(12,255,188)','rgb(152,79,63)','rgb(0,124,144)','rgb(62,1,145)','rgb(177,198,112)','rgb(255,150,200)','rgb(254,143,57)','rgb(225,2,255)','rgb(125,0,87)','rgb(29,24,0)','rgb(225,2,82)','rgb(1,172,38)','rgb(37,242,255)','rgb(196,255,70)','rgb(139,108,0)','rgb(126,101,143)','rgb(254,184,152)','rgb(149,199,255)','rgb(8,157,118)','rgb(105,112,80)','rgb(0,98,255)','rgb(238,118,255)','rgb(165,24,0)','rgb(3,66,156)','rgb(180,255,213)','rgb(69,0,20)','rgb(255,204,105)','rgb(254,120,106)','rgb(162,255,142)','rgb(160,0,155)','rgb(180,164,167)','rgb(0,51,71)','rgb(130,172,0)','rgb(0,255,115)','rgb(2,123,192)','rgb(124,48,235)','rgb(180,99,183)','rgb(247,209,255)','rgb(82,54,0)','rgb(251,255,123)','rgb(218,65,137)','rgb(123,189,183)','rgb(0,66,43)','rgb(143,0,50)','rgb(64,8,95)','rgb(255,242,188)','rgb(94,67,69)','rgb(79,151,64)','rgb(139,83,211)','rgb(182,163,1)','rgb(176,91,121)','rgb(171,88,22)','rgb(178,153,96)','rgb(77,33,73)','rgb(94,216,0)','rgb(250,255,0)','rgb(251,92,48)','rgb(90,110,0)','rgb(13,187,224)','rgb(237,170,255)','rgb(112,211,141)','rgb(255,171,0)','rgb(109,15,0)','rgb(230,30,212)','rgb(35,221,192)','rgb(28,1,22)','rgb(255,115,211)','rgb(45,62,113)','rgb(129,169,123)','rgb(0,114,234)','rgb(255,3,59)','rgb(166,154,219)','rgb(237,141,147)','rgb(42,56,0)','rgb(105,115,124)','rgb(182,253,255)','rgb(3,216,116)','rgb(202,211,30)','rgb(106,69,143)','rgb(220,148,83)','rgb(211,79,102)','rgb(51,120,102)','rgb(254,194,202)','rgb(196,208,184)','rgb(196,144,179)','rgb(185,134,115)','rgb(255,0,130)','rgb(197,132,2)','rgb(0,0,181)','rgb(4,59,183)','rgb(199,82,255)','rgb(109,166,255)','rgb(206,255,173)','rgb(106,145,184)','rgb(67,117,63)','rgb(185,209,227)','rgb(142,100,50)','rgb(179,222,96)','rgb(133,0,181)','rgb(101,112,194)','rgb(120,39,70)','rgb(187,70,56)','rgb(155,151,54)','rgb(56,73,68)','rgb(2,92,132)','rgb(196,6,142)','rgb(113,38,147)','rgb(149,110,120)','rgb(61,24,0)','rgb(121,215,74)','rgb(97,93,30)','rgb(0,173,243)','rgb(1,72,255)','rgb(243,232,140)','rgb(0,22,122)','rgb(137,66,120)','rgb(209,120,91)','rgb(166,0,255)','rgb(193,125,239)','rgb(2,128,0)','rgb(0,160,153)','rgb(156,255,0)','rgb(255,112,0)','rgb(0,173,96)','rgb(132,152,137)','rgb(209,36,50)','rgb(77,67,40)','rgb(2,29,99)','rgb(0,36,32)','rgb(238,198,135)','rgb(240,214,75)','rgb(74,75,99)','rgb(253,220,199)','rgb(117,55,0)','rgb(210,1,8)','rgb(133,94,255)','rgb(126,138,74)','rgb(121,120,255)','rgb(255,115,158)','rgb(204,87,0)','rgb(216,72,196)','rgb(152,45,138)','rgb(121,205,169)','rgb(123,199,96)','rgb(183,217,162)','rgb(166,44,96)','rgb(207,101,162)','rgb(129,96,76)','rgb(139,224,255)','rgb(97,91,198)','rgb(180,173,208)','rgb(77,50,202)','rgb(124,255,96)','rgb(190,194,74)','rgb(106,47,46)','rgb(139,206,0)','rgb(36,34,64)','rgb(230,116,67)','rgb(199,158,63)','rgb(86,137,0)','rgb(200,175,146)','rgb(128,255,238)','rgb(5,235,55)','rgb(45,40,45)','rgb(130,255,197)','rgb(150,0,26)','rgb(181,68,209)','rgb(193,0,89)','rgb(45,27,231)','rgb(254,148,255)','rgb(255,84,100)','rgb(44,0,57)','rgb(230,255,219)','rgb(0,90,93)','rgb(252,173,68)','rgb(120,72,98)','rgb(0,130,69)','rgb(8,34,0)','rgb(134,166,179)','rgb(150,112,181)','rgb(82,102,157)','rgb(138,173,63)','rgb(169,0,221)','rgb(255,75,129)','rgb(69,31,45)','rgb(16,127,223)','rgb(162,64,78)','rgb(209,136,200)','rgb(52,198,207)','rgb(236,215,231)','rgb(111,245,157)','rgb(255,255,255)']
 		@colors20 = ['rgb(255,246,255)','rgb(13,112,105)','rgb(31,22,50)','rgb(5,153,36)','rgb(255,255,0)','rgb(241,20,15)','rgb(37,183,255)','rgb(69,10,255)','rgb(22,250,228)','rgb(120,0,127)','rgb(32,115,255)','rgb(255,166,255)','rgb(255,22,254)','rgb(255,164,2)','rgb(74,255,15)','rgb(99,1,2)','rgb(123,110,29)','rgb(255,146,128)','rgb(255,31,137)','rgb(226,255,162)']
 		@colors21 = ['rgb(74,0,255)','rgb(32,255,255)','rgb(9,112,7)','rgb(72,107,255)','rgb(8,255,5)','rgb(234,255,6)','rgb(255,31,255)','rgb(106,76,0)','rgb(255,161,2)','rgb(48,0,91)','rgb(251,160,255)','rgb(255,146,129)','rgb(58,173,255)','rgb(0,5,21)','rgb(80,127,119)','rgb(255,3,143)','rgb(115,0,44)','rgb(249,239,150)','rgb(255,43,19)','rgb(251,240,255)','rgb(106,255,154)']
@@ -1612,7 +1612,7 @@ end
 class ChromosomePlotter < Plotter
   @@chrom_width = 0
   @@drawn_circles_per_row=@@num_phenos_row = 6
-  @@circle_outline = 'black'
+  @@circle_outline = 'black' 
   
   def self.set_chrom_width(w)
     @@chrom_width = w
@@ -1627,7 +1627,7 @@ class ChromosomePlotter < Plotter
 		# then largest value for that number of rows
 		fewest_rows = 100000
 		min = 6
-		max = 20 #keren change how many chr in a row
+		max = 14 # keren change how many chrs can be in a row 
 		for i in min..max
 			val = total_num_chromosomes.to_f/i
 			fewest_rows = val.to_i if val.to_i < fewest_rows
@@ -2309,7 +2309,7 @@ class PhenotypeLabels < Plotter
 		end
 		
 		label_size = maxname_length if maxname_length > label_size
-		phenos_per_row = 2 # keren change phenos per row from char_per_row/label_size.to_f to 2
+		phenos_per_row = char_per_row/label_size.to_f
 		phenos_per_row *= params[:chroms_in_row].to_f / 12	
 		return phenos_per_row.round
 	end
@@ -2490,7 +2490,7 @@ def draw_plot(genome, phenoholder, options)
 			# adjust for maxphenos of previous chromosome
 			# 3 characters per circle? for small text and 2 for big (font size diff is 1.5)
 			# look at num_circles_in_row and then see if maxphenos plus notes will fit
-			options.big_font ? chars_per_circle=1.1 : chars_per_circle=1.2 # Keren changed 1.2 to 1.1 to make chrs more spread (originally 1.0 1.2)
+			options.big_font ? chars_per_circle=1.1 : chars_per_circle=1.2 # Keren changed 1.2 to 1.1 to make chrs more spread
 		
 			# compare all the chromosomes that line up and use the one with the greatest circles needed
 			circles_needed=0
@@ -2530,8 +2530,8 @@ def draw_plot(genome, phenoholder, options)
   # of the total x and total y
   height_in = width_in * total_y / total_x.to_f
 
-  # Keren added more width here total_x*1.1
-  xmax = total_x
+  # Keren added more width here
+  xmax = total_x*1.1
   ymax = total_y
 
   inches_ratio = height_in/width_in.to_f

@@ -1,0 +1,19 @@
+snp	chrom	pos	phenotype	ANNOTATION	Ancestry
+rs199695765	7	130269008	asparaginase hypersensitivity	CPA2	N/A
+rs112141546	16	77367618	asparaginase hypersensitivity	ADAMTS18	N/A
+rs45461499	1	43363065	asparaginase hypersensitivity	CDC20	N/A
+rs738409	22	43928847	asparaginase hypersensitivity	PNPLA3	N/A
+rs73062673	19	54151243	asparaginase hypersensitivity	CNOT3	N/A
+rs10949482	6	18121083	mercaptopurine intolerance	NHLRC1	N/A
+rs79050301	6	18151959	mercaptopurine intolerance	TPMT	N/A
+rs924607	5	609978	peripheral neuropathy	CEP72	N/A
+rs17032980	2	67075611	peripheral neuropathy	ETAA1	N/A
+rs12786200	11	92245852	peripheral neuropathy	MTNR1B	N/A
+rs4463516	9	32867483	peripheral neuropathy	TMEM215	N/A
+rs7818688	8	95011854	peripheral neuropathy	NDUFAF6	N/A
+rs7142143	14	50936813	relapse	PYGL	N/A
+rs116855232	13	48045719	mercaptopurine intolerance	NUDT15	East Asian
+rs6021191	20	51419700	asparaginase hypersensitivity	NFATC2	Asian and AA/B
+rs12748152	1	26811902	asparaginase hypersensitivity	PIGV	AA/B
+rs149940960	2	11641492	asparaginase hypersensitivity	GREB1	AA/B
+rs1142345	6	18130687	mercaptopurine intolerance	TPMT	AA/B
